@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
-      <h1>tolong</h1>
+      
+      <Navbar />
     </div>
   );
 };
