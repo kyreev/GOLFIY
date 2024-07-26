@@ -26,7 +26,7 @@ const MenuLink = () => {
 
   return (
     <div className="duration-200 relative z-40">
-      <div className="py-4">
+      <div className="py-2">
         <div className="container mx-auto flex items-center px-10">
           {/* Logo */}
           {!searchVisible && (
@@ -60,7 +60,7 @@ const MenuLink = () => {
           >
             {/* Search Bar */}
             <div
-              className={`relative flex-grow py-1.5 ${
+              className={`relative flex-grow py-1 ${
                 searchVisible ? "flex justify-center" : "inline-flex"
               }`}
             >
