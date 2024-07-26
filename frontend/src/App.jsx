@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Promotion from "./components/Navbar/Promotion";
+import MenuLink from "./components/Navbar/MenuLink";
 
 const App = () => {
   return (
     <div>
-      
-      <Navbar />
+      <Promotion />
+      <MenuLink />
     </div>
   );
 };
